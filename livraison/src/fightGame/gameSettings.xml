@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameSettings>
+    <nbRows>6</nbRows> <!-- Nombre de lignes pour la grille -->
+    <nbCols>6</nbCols> <!-- Nombre de colones pour la grille -->
+    <nbBombs>5</nbBombs> <!-- Nombre initial de bombes pour chaque joueurs -->
+    <nbProjectiles>5</nbProjectiles> <!-- Nombre initial de projectiles pour chaque joueurs -->
+    <nbMines>5</nbMines> <!-- Nombre initial de mines pour chaque joueurs -->
+    <bombVisibility>0</bombVisibility> <!-- 0 pour une visibilité privée et 1 pour une visibilité publique -->
+    <mineVisibility>0</mineVisibility> <!-- 0 pour une visibilité privée et 1 pour une visibilité publique -->
+    <startingEnergy>200</startingEnergy> <!-- Energie initiale des joueurs -->
+    <projectileScope>5</projectileScope> <!-- Portée d'un projectile -->
+    <bombDamage>50</bombDamage> <!-- Dégâts infligés par une bombe -->
+    <bombTimer>5</bombTimer> <!-- Nombre de tours avant l'explosion d'une bombe -->
+    <mineDamage>30</mineDamage> <!-- Dégâts infligés par une mine -->
+    <projectileDamage>25</projectileDamage> <!-- Dégâts infligés par un projectile -->
+    <pelletBoost>80</pelletBoost> <!-- Boost apporté par une pastille -->
+    <moveCost>5</moveCost> <!-- Coût d'un déplacement -->
+    <shieldCost>5</shieldCost> <!-- Coût de l'activation de l'armure -->
+    <shieldAbsorption>20</shieldAbsorption> <!-- Rétention de l'armure face aux attaques -->
+    <shieldTimer>5</shieldTimer> <!-- Nombre de tours avant la disparition de l'armure -->
+    <initPellet>3</initPellet> <!-- Nombre initial de pastille dans le jeu -->
+    <nbWall>2</nbWall> <!-- Nombre initial de murs dans le  jeu -->
+    <fillStrategy>0</fillStrategy> <!-- 0 pour une stratégie random et 1 pour le cornerfillstrategy -->
+    <nbmultiStartPLayers>1</nbmultiStartPLayers> <!-- Nombre initial de multi players dans le jeu -->
+    <nbHumainsPLayer>0</nbHumainsPLayer> <!-- Nombre initial de joueurs humain dans le jeu -->
+    <randomPlayers>1</randomPlayers> <!-- Nombre de joueurs avec la stratégie random -->
+    <minimaxPlayers>1</minimaxPlayers> <!-- Nombre de joueurs avec la stratégie minimax -->
+    <boringAction>50</boringAction> <!-- Limite de tours pour stopper le jeu, lorsque les joueurs ne font plus rien-->
+</gameSettings>
